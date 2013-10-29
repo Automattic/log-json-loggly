@@ -1,0 +1,11 @@
+{
+  "name": "cloudup-log-reader",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "debug": "~0.7.2",
+    "carrier": "0.1.13",
+    "commander": "2.0.0",
+    "superagent": "0.15.7"
+  }
+}
