@@ -50,7 +50,7 @@ if (!program.file) {
   process.stdin.resume();
   stream = process.stdin;
 } else {
-  stream = fs.readFile(program.file);
+  stream = fs.createReadStream(program.file);
 }
 
 /**
