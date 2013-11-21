@@ -3,10 +3,11 @@
   "version": "0.0.1",
   "description": "",
   "dependencies": {
-    "debug": "~0.7.2",
+    "debug": "0.7.2",
     "carrier": "0.1.13",
     "commander": "2.0.0",
-    "superagent": "0.15.7"
+    "superagent": "0.15.7",
+    "tailfd": "0.1.5"
   },
   "bin": {
     "cloudup-log-reader": "./index"
