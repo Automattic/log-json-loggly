@@ -113,7 +113,7 @@ function flush(){
   function send(buf, ret){
     req = request({
       method: 'POST',
-      hostname: 'logs-01.loggly.co',
+      hostname: 'logs-01.loggly.com',
       path: path
     }, function(res){
       debug('status %d', res.statusCode);
