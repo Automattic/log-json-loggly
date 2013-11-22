@@ -1,6 +1,6 @@
 {
   "name": "cloudup-log-reader",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "dependencies": {
     "debug": "0.7.2",
@@ -10,6 +10,6 @@
     "tailfd": "0.1.5"
   },
   "bin": {
-    "cloudup-log-reader": "./index"
+    "cloudup-log-reader": "./bin/cloudup-log-reader"
   }
 }
