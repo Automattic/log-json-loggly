@@ -111,12 +111,13 @@ function flush(){
   debug('sending http request');
 
   function send(buf, ret){
+    var start = Date.now();
     req = request({
       method: 'POST',
       hostname: 'logs-01.loggly.com',
       path: path
     }, function(res){
-      debug('status %d', res.statusCode);
+      debug('status %d (%dms)', res.statusCode, Date.now() - start);
       if (200 != res.statusCode) {
         var errText = '';
         res.on('data', function(buf){
