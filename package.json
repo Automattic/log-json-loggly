@@ -1,6 +1,6 @@
 {
   "name": "cloudup-log-reader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "dependencies": {
     "debug": "0.7.2",
