@@ -9,6 +9,7 @@
     "superagent": "0.15.7",
     "tailfd": "0.1.5"
   },
+  "private": true,
   "bin": {
     "cloudup-log-reader": "./bin/cloudup-log-reader"
   }
