@@ -124,7 +124,7 @@ function flush(){
           errText += buf;
         });
         res.on('end', function(){
-          console.error('error %d: %s', err.statusCode, errText);
+          console.error('error %d: %s', res.statusCode, errText);
           errText = null;
           onerr();
         });
