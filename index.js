@@ -8,7 +8,7 @@ var carry = require('carrier').carry;
 var request = require('https').request;
 var program = require('commander');
 var tail = require('tailfd').tail;
-var debug = require('debug')('cloudup:log-reader');
+var debug = require('debug')('log-json-loggly');
 
 /**
  * Set up commander.
