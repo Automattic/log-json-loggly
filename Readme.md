@@ -1,5 +1,9 @@
 ## log-json-loggly
 
+File tailer that captures logs with the
+[log-json](https://github.com/automattic/log-json) format, and pipes
+them to [Loggly](https://loggly.com).
+
 ```
 
   Usage: log-json-loggly [options]
