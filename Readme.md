@@ -1,9 +1,8 @@
-
-## cloudup-log-reader
+## log-json-loggly
 
 ```
 
-  Usage: cloudup-log-reader [options]
+  Usage: log-json-loggly [options]
 
   Options:
 
