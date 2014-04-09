@@ -1,5 +1,5 @@
 {
-  "name": "cloudup-log-reader",
+  "name": "log-json-loggly",
   "version": "1.0.2",
   "description": "",
   "dependencies": {
@@ -9,8 +9,7 @@
     "superagent": "0.15.7",
     "tailfd": "0.1.5"
   },
-  "private": true,
   "bin": {
-    "cloudup-log-reader": "./bin/cloudup-log-reader"
+    "log-json-loggly": "./bin/log-json-loggly"
   }
 }
