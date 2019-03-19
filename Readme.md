@@ -1,3 +1,4 @@
+# This repository is no longer maintained
 ## log-json-loggly
 
 File tailer that captures logs with the
